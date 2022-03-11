@@ -21,42 +21,42 @@ Para vincular una ocurrencia con un recurso o registro externo (o interno), nave
 En el recuadro de Ocurrencias asociadas de la pestañña Recursos Enlazados, puede vincular una ocurrencia con (1) otra ocurrencia en el portal que está trabajando actualmente, (2) una ocurrencia en otro portal o base de datos, y/o (3) un registro observacional (sin voucher) de un taxon específico.
 
 #### Enlazando una ocurrencia a un registro dentro del portal
-1. Click the plus sign icon in the Associated Occurrences box to add a new link.
-2. Enter the name of the identifier (catalog number, other catalog number, or occid/SymbiotaID number) for the occurrence to be linked in the **Identifier** box.
-3. Select either Catalog Numbers or Occurrence PK from the **Search Target** dropdown list, depending on what you entered into the **Identifier** box.
-4. Select the collection within the portal to which the occurrence to be linked belongs (if applicable).
-5. Click the Search button.
-6. From the search results, click the radio button to the left of the occurrence to which you would like to link your current occurrence.
+1. Hacer click en el ícono del signo más en la casilla de Ocurrencias Asociadas para añadir un nuevo enlace.
+2. Introducier el nombre del identificador (número de catálogo, otro número de catálogo, u occurrenceID/SymbiotaID) en la casilla **Identificador** para que la ocurrencia sea vinculada.  
+3. Seleccione ya sea Números de Catálogo u PK de Ocurrencia de la lista desplegable **Objetivo para Búsqueda**, dependiendo de lo que ingresó en la casilla de **Identificador**. 
+4. Seleccione la colección dentro del portal a la que la ocurrencia a ser vinculada pertenece (si aplica).
+5. Haga click en el botón de Búsqueda.
+6. Desde los resultados de la búsqueda, haga click en el botón circular a la izquierda de la ocurrencia a la que le gustaría enlazar la ocurrencia actual. 
 
 {{< notice note >}}
-  You can click the underlined portion of the occurrence search results to view the occurrence before linking it
+  Puede hacer click en la porción subrayada en los resultados de búsqueda de ocurrencias, para ver la ocurrencia antes de vincularla.
 {{</ notice >}}
 
 ![Create New Association Example](/symbiota-docs/images/createassociation.PNG)
 
-7. Scroll down to the **Relationship** field and select the relationship term that best describes the relationship between your occurrence and the occurrence that is being linked.
+7. Busque el campo de **Relaciones** en la parte inferior, y seleccione un término que describa la relación entre su ocurrencia y la ocurrencia que está siendo vinculada.
 
 {{< notice note >}}
-  Note that the **subject** of the Relationship term corresponds to the occurrence that you are currently in the occurrence editor for, and the **object** of the Relationship term is the occurrence that you have searched for and are linking to. For example, if you are on the occurrence editor page for record 12345, then you use the Associated Occurrences box to find record 54321, and you select "partOf" from the dropdown menu, the relationship recorded is: "Record 12345 is part of record 54321".
+  Note que el **sujeto** del término de Relación corresponde a la ocurrencia que usted está editando actualmente, y que el **objeto** del término de Relación es la ocurrencia que va a ser vinculada. Por ejemplo, si se encuentra en la página de edición del registro 12345, debe utilizar la casilla de Ocurrencias Asociadas para encontrar el registro 54321, y seleccionar "partOf" (parte de) del menú desplegable, para que la relación sea registrada como "Registro 12345 es parte del registro 54321".
 {{</ notice >}}
 
-8. Select a **Relationship subtype** and the **Basis of Record** from the dropdown menus, if applicable, and any notes in the **Notes** field.
-9. If the relationship you selected was hasHost or hostOf, enter **Location on host** information, if available.
-10. Click the Create Association button.
+8. Selleccione un **Subtipo de Relación** (Relationship Subtype), y **Base del Registro** (Basis of Record) de los menús desplegables, si aplica. Agregue cualquier otra información en el campo de **Notas** (Notes). 
+9. Si la relación que seleccionó fue hasHost (tiene hospedero) o hostOf (es hospedero de), introducir la información de **Ubicación en hospedero** (Location on host), de estar disponible.
+10. Haga click en el botón Crear Asociación.
 
-#### Linking an occurrence to a record in a different portal/database
-1. Click the plus sign icon in the Associated Occurrences box to add a new link.
-2. In the External Occurrence box, enter the catalog number or another identifier for the record to which you are linking in the **External Identifier** box.
-3. Enter a URL that can be used to access the record to which you are linking in the **Resource URL** field. For example, here is a URL for a records from the Bryophyte Portal that could be entered: [https://bryophyteportal.org/portal/collections/individual/index.php?occid=4595185](https://bryophyteportal.org/portal/collections/individual/index.php?occid=4595185).
-4. Complete steps 7-10 as above.
+#### Enlazando un registro de ocurrencia en un portal o base de datos diferente
+1. Haga click en el ícono de signo más en la ventana de Ocurrencias Asociadas para añadir un nuevo enlace. 
+2. En la casilla de Ocurrencia Externa, ingrese el número de catálogo o algún otro identificadore del registro que está vinculando en la casilla **Identificador Externo** (External Identifier).
+3. Ingrese una URL que pueda ser utilizada para acceder al registro que está vinculando en el campo **URL del Recurso** (Resource URL). Por ejemplo, aquí está la URL para un registro del Portal de Briophytas que puede ser ingresado: [https://bryophyteportal.org/portal/collections/individual/index.php?occid=4595185](https://bryophyteportal.org/portal/collections/individual/index.php?occid=4595185).
+4. Complete los pasos 7-10 descritos anteriormente.
 
-#### Linking an occurrence to an observation that lacks a record
-1. Click the plus sign icon in the Associated Occurrences box to add a new link.
-2. Enter the scientific name of the taxon that has a relationship with your occurrence.
-3. Complete steps 7-10 as above.
+#### Enlazando una ocurrencia a una observación que no tiene un registro 
+1. Haga click en el ícono del signo más en la casilla de Ocurrencias asociadas para añadir un nuevo enlace.
+2. Introducir el nombre científico del taxón que tiene relación con su ocurrencia. 
+3. Complete los pasos 7-10 descritos anteriormente.
 
-### Linking an occurrence to a checklist
-1. In the **Checklist Voucher Linkages** box of the Linked Resources tab, select the checklist to which you would like to link you occurrence from the dropdown menu. Note that you will only see checklists for which you have editor or administrator permissions.
+### Enlazando una ocurrencia a un listado de especies
+1. En la casilla  the **Checklist Voucher Linkages** box of the Linked Resources tab, select the checklist to which you would like to link you occurrence from the dropdown menu. Note that you will only see checklists for which you have editor or administrator permissions.
 
 {{< notice note >}}
   To batch link vouchers to a checklist, see the [Adding Vouchers to Checklist page](https://biokic.github.io/symbiota-docs/user/checklist/voucher/).
