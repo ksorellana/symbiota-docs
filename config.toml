@@ -43,10 +43,6 @@ font_family = "lato" # Choose font family from : https://fonts.google.com/
 [[params.plugins.css]]
 link = "/assets/css/custom.css"
 
-[[params.plugins.js]]
-link = "/plugins/search/search.js"
-#attributes = "your-attributes" # optional field
-
 ############################## social links ##############################
 [[params.social]]
 # icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
@@ -71,7 +67,7 @@ languageName = "En"
 languageCode = "en-us"
 weight = 1
 #copyright = "Put together with \u2665 by [Laura](https://laura.rochaprado.com/)"
-copyright = "© 2021 [Symbiota Support Hub](https://symbiota.org)"
+copyright = "© 2022 [Symbiota Support Hub](https://symbiota.org)"
 
 # banner
 [Languages.en.params.banner]
@@ -217,9 +213,14 @@ name = "Contribuyendo"
 url = "contribute"
 weight = 6
 
+[[Languages.es.menu.main]]
+name = "Buscar"
+url = "search"
+weight = 7
+
 # Dropdown menu
 [[Languages.es.menu.main]]
-weight = 7
+weight = 8
 name = "Docs"
 hasChildren = true
 
